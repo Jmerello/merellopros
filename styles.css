@@ -70,6 +70,10 @@ nav ul li a:hover {
     color: #ffd700;  /* Bright yellow on hover */
 }
 
+nav ul li a:visited{
+    color: #ffd700;
+}
+
 /* Shop Section */
 #shop {
     text-align: center;
