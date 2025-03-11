@@ -42,6 +42,7 @@ header {
 /* Header Title Styling */
 header h1 {
     margin: 0;
+    font-style: berkshire swash;
     font-size: 36px;
     color: #fff;
 }
