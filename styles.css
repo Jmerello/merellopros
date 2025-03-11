@@ -47,6 +47,10 @@ header h1 {
     color: #fff;
 }
 
+img {
+    justify content: center;
+}
+
 /* Navigation Bar */
 nav ul {
     list-style-type: none;
