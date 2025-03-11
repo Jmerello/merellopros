@@ -88,6 +88,7 @@ nav ul li a:hover {
 
 /* Featured Section */
 #featured {
+    background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
     padding: 50px 20px;
     text-align: center;
 }
