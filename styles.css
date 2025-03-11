@@ -1,7 +1,7 @@
 /* General Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background: url('images/Business card.png') no-repeat center center/cover;
+    background: url('images/business_card.png') no-repeat center center/cover;
     background-size: cover;  /* Ensure background covers the whole page */
     background-attachment: fixed;  /* Keeps the background fixed when scrolling */
     color: #fff;  /* Set text color to white */
@@ -38,16 +38,6 @@ header {
     text-align: center;/* Vertically center the content */
 }
 
-header::before {
-    content: "";
-    display: inline-block;
-    background: url('images/gearheadLogo.webp') no-repeat center center;
-    background-size: contain;
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    left: 1in;
-}
 
 /* Header Title Styling */
 header h1 {
@@ -250,17 +240,6 @@ a:active {
     header {
         height: auto;
         padding: 10px 0;
-    }
-
-    header::before {
-    content: "";
-    display: inline-block;
-    background: url('images/gearheadLogo.webp') no-repeat center center;
-    background-size: contain;
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    left: 10px;
     }
 
     header h1 {
