@@ -52,7 +52,10 @@ img {
     display: block;
     margin: 0;
     color: #fff;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
 }
 
 
