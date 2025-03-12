@@ -198,7 +198,7 @@ footer .nav-button:hover {
 
 /* General link styling for all states */
 a {
-    color: #ff6600;  /* Orange for default link color */
+    color: #fff;  /* Orange for default link color */
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -242,9 +242,13 @@ a:active {
     
     img {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     color: #fff;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
 
     header {
         height: auto;
@@ -301,9 +305,13 @@ a:active {
 
     img {
     display: block;
-    margin: 0 auto;
+    margin: 0;
     color: #fff;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
 
     .resource-item {
         padding: 10px;       /* Further reduce padding for compact display */
