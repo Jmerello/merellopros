@@ -37,9 +37,11 @@ header {
     background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
     height: 50px;
     position: fixed;
-    text-align: center;/* Vertically center the content */
+    text-align: center;
     padding-bottom: 10px;
+    width: 100%;  /* Add this */
 }
+
 
 
 /* Header Title Styling */
@@ -51,11 +53,11 @@ header h1 {
 
 /* Center the company logo */
 header img {
-    display: flex;
-    margin: 200 auto; /* Center horizontally */
-    margin-bottom: 20px; /* Add some spacing below */
-     /* Adjust the size of the logo */
+    width: 100%;  /* Scale the image to fit the header's width */
+    max-width: 100%;  /* Prevent the image from exceeding the header width */
+    height: auto;  /* Maintain aspect ratio */
 }
+
 
 /* Style for gallery images (rows of three, centered) */
 .main-gallery {
