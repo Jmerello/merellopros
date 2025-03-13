@@ -39,7 +39,6 @@ header {
     position: fixed;
     text-align: center;
     padding: 20 20px;
-    display: flex;
     box-sizing: border-box;
     width: 100%;  /* Add this */
 }
