@@ -46,7 +46,7 @@ header {
 header img {
     width: 100%; /* Make the image responsive */
     max-width: 1000px; /* Set the maximum width */
-    min-width: 500px; /* Set the minimum width */
+    min-width: 200px; /* Set the minimum width */
     height: auto; /* Maintain the aspect ratio */
     margin-bottom: 10px; /* Add spacing below the image */
 }
