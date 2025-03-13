@@ -32,25 +32,37 @@ header {
     margin: 0;   /* Removes any default margins */
     padding: 10px 20px; /* Keeps the internal padding for content spacing */
     box-sizing: border-box; /* Ensures padding is included within the width */
+    flex-direction: column; /* Stack header content vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-align items vertically */
 }
 
+/* Logo Image in Header */
+header img {
+    max-width: 200px; /* Adjust as needed for appropriate size */
+    height: auto;
+    margin-bottom: 10px; /* Add spacing below the logo */
+}
+
+/* Header Title Styling */
 header h1 {
-    margin: 0;
+    margin: 10px 0;
     font-size: 24px;
     color: #fff;
 }
 
-/* Navigation Bar */
+/* Navigation Bar within Header */
+nav {
+    width: 100%; /* Ensure it spans the width of the header */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 10px;
+    justify-content: center; /* Center-align nav links */
+    gap: 15px; /* Add spacing between links */
 }
 
 nav ul li a {
@@ -61,7 +73,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700;
+    color: #ffd700; /* Bright yellow on hover */
 }
 
 /* Gallery Section */
