@@ -153,6 +153,7 @@ footer {
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     header img {
+        position: fixed;
         max-width: 100%;
     }
     
@@ -179,6 +180,7 @@ footer {
 @media screen and (max-width: 480px) {
     /* Header Image Adjustments */
     header img {
+        position: fixed;
         width: 100%; /* Ensure the image scales with the screen width */
         max-width: 100%; /* Remove fixed maximum size for small screens */
         min-width: unset; /* Remove minimum width to prevent overflow */
