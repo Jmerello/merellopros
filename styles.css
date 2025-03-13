@@ -39,6 +39,8 @@ header {
     position: fixed;
     text-align: center;
     padding-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
     width: 100%;  /* Add this */
 }
 
