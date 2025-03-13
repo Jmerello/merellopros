@@ -76,6 +76,17 @@ nav ul li a:hover {
     color: #ffd700; /* Bright yellow on hover */
 }
 
+/* Paragraph and Link Styling */
+p, a {
+    color: #fff; /* White text by default */
+    text-align: center; /* Centers text inside their containers */
+    margin: 10px 0; /* Adds spacing between elements */
+}
+
+a:hover {
+    color: #ffd700; /* Yellow on hover */
+}
+
 /* Gallery Section */
 .main-gallery {
     display: flex;
