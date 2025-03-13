@@ -41,11 +41,12 @@ header {
     padding: 0 20px;
     margin: 10 10;  /* Center it horizontally */
     box-sizing: border-box;
-    width: 100%;  /* Add this */
+    width: 100%; /* Add this */
+    content: "";
 }
 
 /* Center the company logo */
-header img {
+.header-img {
     display: flex; /* Ensure block-level layout */
     margin: 0 auto; /* Center the image */
     padding: 0 20px; /* Add padding to avoid edges */
