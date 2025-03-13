@@ -226,6 +226,20 @@ a:active {
     color: #fff;  /* Slightly darker orange when the link is clicked */
 }
 
+p {
+    color: #fff;  /* Orange for default link color */
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+p:hover {
+    color: #ffd700;  /* Yellow on hover */
+}
+
+p:active {
+    color: #fff;  /* Slightly darker orange when the link is clicked */
+}
 /* Add spacing between list items */
 .content ul > li {
     margin-bottom: 20px; /* Adds space between each primary list item */
