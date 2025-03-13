@@ -36,8 +36,9 @@ body::before {
 header {
     background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
     height: 90px;
+    position: fixed;
     text-align: center;/* Vertically center the content */
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 
@@ -55,7 +56,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 50px;
+    margin: 50 50px;
 }
 
 
