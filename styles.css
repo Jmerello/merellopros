@@ -39,7 +39,7 @@ header {
 
 /* Logo Image in Header */
 header img {
-    max-width: 200px; /* Adjust as needed for appropriate size */
+    max-width: 500px; /* Adjust as needed for appropriate size */
     height: auto;
     margin-bottom: 10px; /* Add spacing below the logo */
 }
