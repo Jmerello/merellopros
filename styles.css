@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
-    padding-top: 120px; /* Add padding to make space for the fixed header */
+    padding-top: 150px; /* Adjust padding to accommodate header height */
 }
 
 body::before {
@@ -31,26 +31,27 @@ body::before {
 header {
     background-color: rgba(51, 51, 51, 0.8);
     text-align: center;
-    width: 100%; /* Makes the header stretch across the full viewport */
-    margin: 0;  /* Removes any default margins */
-    padding: 10px 20px; /* Keeps the internal padding for content spacing */
-    box-sizing: border-box; /* Ensures padding is included within the width */
-    flex-direction: column; /* Stack header content vertically */
-    align-items: center; /* Center-align items horizontally */
-    justify-content: center; /* Center-align items vertically */
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: fixed;
+    top: 0; /* Ensure header is at the top */
+    z-index: 1; /* Ensure header is above other content */
 }
 
-/* Logo Image in Header */
 header img {
-    width: 100%; /* Make the image responsive */
-    max-width: 1000px; /* Set the maximum width */
-    min-width: 200px; /* Set the minimum width */
-    height: auto; /* Maintain the aspect ratio */
-    margin-bottom: 10px; /* Add spacing below the image */
+    width: 100%;
+    max-width: 1000px;
+    min-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-/* Header Title Styling */
 header h1 {
     margin: 10px 0;
     font-size: 24px;
@@ -59,7 +60,7 @@ header h1 {
 
 /* Navigation Bar within Header */
 nav {
-    width: 100%; /* Ensure it spans the width of the header */
+    width: 100%;
 }
 
 nav ul {
@@ -67,8 +68,8 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Center-align nav links */
-    gap: 15px; /* Add spacing between links */
+    justify-content: center;
+    gap: 15px;
 }
 
 nav ul li a {
@@ -79,7 +80,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Bright yellow on hover */
+    color: #ffd700;
 }
 
 /* Paragraph and Link Styling */
