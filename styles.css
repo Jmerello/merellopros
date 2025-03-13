@@ -39,6 +39,7 @@ header {
     position: fixed;
     text-align: center;/* Vertically center the content */
     padding-bottom: 50px;
+    max-width: 5000px;
 }
 
 
