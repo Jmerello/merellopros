@@ -54,7 +54,7 @@ header img {
     display: flex;
     margin: 200 auto; /* Center horizontally */
     margin-bottom: 20px; /* Add some spacing below */
-    width: 1000px; /* Adjust the size of the logo */
+     /* Adjust the size of the logo */
 }
 
 /* Style for gallery images (rows of three, centered) */
