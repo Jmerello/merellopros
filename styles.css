@@ -55,7 +55,7 @@ header img {
     display: flex;
     justify-content: center; /* Center-align the rows */
     margin: 0 auto; /* Center horizontally */
-    margin-top: 100px;
+    margin-top: 1000px;
     margin-bottom: 20px; /* Add some spacing below */
     max-width: 1000px; /* Adjust the size of the logo */
 }
@@ -71,7 +71,7 @@ header img {
 
 .main-gallery img {
     width: calc(33.33% - 10px); /* Three images per row, with some margin */
-    max-width: 300px; /* Optional: Limit the max size of images */
+    max-width: 600px; /* Optional: Limit the max size of images */
     display: block;
 }
 
