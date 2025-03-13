@@ -38,7 +38,7 @@ header {
     height: 50px;
     position: fixed;
     text-align: center;
-    padding: 20 20px;
+    padding: 0 20px;
     margin: 0 auto;  /* Center it horizontally */
     box-sizing: border-box;
     width: 100%;  /* Add this */
@@ -57,7 +57,7 @@ header h1 {
 header img {
     display: block; /* Ensure block-level layout */
     margin: 0 auto; /* Center the image */
-    padding: 0 10px; /* Add padding to avoid edges */
+    padding: 0 20px; /* Add padding to avoid edges */
     width: auto;    /* Let the width adjust naturally */
     max-width: 100%; /* Prevent it from exceeding header width */
 }
