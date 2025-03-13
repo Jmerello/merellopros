@@ -218,6 +218,7 @@ footer .nav-button:hover {
 a {
     color: #fff;  /* Orange for default link color */
     text-decoration: none;
+    text-align: center;
     transition: color 0.3s;
 }
 
