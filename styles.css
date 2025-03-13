@@ -50,7 +50,7 @@ header img {
     margin: 0 auto; /* Center the image */
     padding: 0 20px; /* Add padding to avoid edges */
     width: auto;    /* Let the width adjust naturally */
-    max-width: 75%; /* Prevent it from exceeding header width */
+    max-width: 100%; /* Prevent it from exceeding header width */
 }
 
 /* Header Title Styling */
