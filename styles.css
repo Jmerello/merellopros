@@ -37,9 +37,8 @@ header {
     background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
     height: 50px;
     position: fixed;
-    display: flex;
     text-align: center;/* Vertically center the content */
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 
