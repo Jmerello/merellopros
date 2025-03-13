@@ -33,7 +33,6 @@ header {
     text-align: center;
     width: 100%; /* Makes the header stretch across the full viewport */
     margin: 0;  /* Removes any default margins */
-    z-index: 10; /* Places the header above other elements */
     padding: 10px 20px; /* Keeps the internal padding for content spacing */
     box-sizing: border-box; /* Ensures padding is included within the width */
     flex-direction: column; /* Stack header content vertically */
