@@ -57,7 +57,7 @@ header img {
     margin: 0 auto; /* Center horizontally */
     margin-top: 1000px;
     margin-bottom: 20px; /* Add some spacing below */
-    max-width: 1000px; /* Adjust the size of the logo */
+    max-width: 2000px; /* Adjust the size of the logo */
 }
 
 /* Style for gallery images (rows of three, centered) */
