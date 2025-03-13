@@ -1,20 +1,18 @@
 /* General Body Styling */
-
 body {
     font-family: Arial, sans-serif;
     background: url('images/home_lawn.jpg') no-repeat center center/cover;
-    background-size: cover;  /* Ensure background covers the whole page */
-    background-attachment: fixed;  /* Keeps the background fixed when scrolling */
-    color: #fff;  /* Set text color to white */
-    margin: 1in;  /* Set 1-inch margins for desktop */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 2in);  /* Adjust height considering margins */
-    box-sizing: border-box;  /* Include margins in height calculations */
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
-/* Add overlay for better text readability */
 body::before {
     content: "";
     position: fixed;
@@ -22,59 +20,23 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);  /* Black overlay with 50% opacity */
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
-    padding-bottom: 50px; /* Prevents footer overlap */
 }
 
-/* Content section takes up available space */
-.content {
-    flex-grow: 1;
-    padding: 20px;
-}
-
+/* Header Styling */
 header {
-    background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
-    height: 50px;
-    position: fixed;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px 20px;
     text-align: center;
-    padding: 0 20px;
-    margin: 10 10;  /* Center it horizontally */
     box-sizing: border-box;
 }
 
-/* Center the company logo */
-.header-img {
-    display: flex; /* Ensure block-level layout */
-    margin: 0 auto; /* Center the image */
-    padding: 0 20px; /* Add padding to avoid edges */
-    width: auto;    /* Let the width adjust naturally */
-    max-width: 50%; /* Prevent it from exceeding header width */
-}
-
-/* Header Title Styling */
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 24px;
     color: #fff;
 }
-
-/* Style for gallery images (rows of three, centered) */
-.main-gallery {
-    display: flex;
-    flex-wrap: wrap; /* Allows wrapping of images to next row */
-    justify-content: center; /* Center-align the rows */
-    gap: 15px; /* Add spacing between images */
-    margin-top: 20px;
-}
-
-.main-gallery img {
-    width: calc(50% - 10px); /* Two images per row, with some margin */
-    max-width: 600px; /* Optional: Limit the max size of images */
-    display: block;
-}
-
-
 
 /* Navigation Bar */
 nav ul {
@@ -86,7 +48,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -97,16 +59,47 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700;  /* Bright yellow on hover */
+    color: #ffd700;
 }
 
-/* Blank Section */
-#blank {
+/* Gallery Section */
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.main-gallery img {
+    width: calc(50% - 10px);
+    max-width: 600px;
+    display: block;
+}
+
+/* Featured Section */
+#featured {
     padding: 50px 20px;
     text-align: center;
 }
 
-/* Resource Items */
+.resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.resource-item {
+    background-color: rgba(51, 51, 51, 0.8);
+    border: 2px solid #555;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .resource-item h3 a {
     color: #fff;
     text-decoration: none;
@@ -117,196 +110,27 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
-/* Featured Section */
-#featured {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-/* Resource List Layout */
-.resource-list {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.resource-item {
-    background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
-    border: 2px solid #555;
-    padding: 20px;
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Resource Categories */
-.resource-sections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px 0;
-}
-
-/* Background adjustment for the resource category */
-.resource-category {
-    margin: 20px 0;
-}
-
-.resource-category h2 a {
-    background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
-    text-decoration: none;
-    font-size: 28px;
-    transition: color 0.3s;
-}
-
-.resource-category h2 a:hover {
-    color: #ffd700;
-}
-
-
 /* Footer Styling */
 footer {
-    background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
+    background-color: rgba(51, 51, 51, 0.8);
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: auto;  /* Push footer to the bottom */
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    box-sizing: border-box;
 }
 
-/* General link styling for all states */
-a {
-    color: #fff;  /* Orange for default link color */
-    text-decoration: none;
-    text-align: center;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #ffd700;  /* Yellow on hover */
-}
-
-a:active {
-    color: #fff;  /* Slightly darker orange when the link is clicked */
-}
-
-/* Add spacing between list items */
-.content ul > li {
-    margin-bottom: 20px; /* Adds space between each primary list item */
-}
-
-/* Add spacing between nested list items */
-.content ul ul > li {
-    margin-bottom: 10px; /* Adds smaller space between sub-items */
-}
-
-/* Add spacing to paragraphs inside list items */
-.content ul li p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/* Style headers within tool details */
-.content h2 {
-    margin-top: 30px; /* Adds space above each section title */
-}
-
-/* Mobile Portrait Mode */
+/* Responsive Design */
 @media screen and (max-width: 768px) {
-    body {
-        margin: 0;  /* Remove margins to maximize screen space */
-        padding: 10px; /* Add slight padding to prevent content touching edges */
-        min-height: 100vh;/* Ensure the content fills the viewport */
-    }
-    
-    img {
-    display: block;
-    margin: 0;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    }
-
-    header {
-        height: auto; /* Allow the header to adjust based on content */
-        padding: 10px 0;
-        text-align: center; /* Ensure content stays centered */
-    }
-
-    header h1 {
-        font-size: 24px; /* Decrease font size for smaller screens */
-    }
-
-    header img {
-        width: 80%; /* Ensure the image fits within the viewport */
-        max-width: 100%;
-        margin: 0 auto; /* Center the image horizontally */
-        display: block;
-    }
-
     nav ul {
         flex-direction: column;
         align-items: center;
     }
 
-    nav ul li {
-        margin: 8px 0; /* Reduce spacing for stacked nav items */
-    }
-
-    .content {
-        padding: 10px; /* Reduce padding for smaller screens */
-    }
-
-    .main-gallery img {
-        width: 100%; /* Ensure images take full width */
-        max-width: 100%; /* Prevent images from exceeding screen width */
-    }
-
     .resource-list {
-        flex-direction: column;  /* Stack items vertically */
-        align-items: center;     /* Center-align the content */
+        flex-direction: column;
+        align-items: center;
     }
 
     .resource-item {
-        width: 100%; /* Use full width for each item */
-        margin: 10px 0; /* Add spacing between items */
-        padding: 15px; /* Adjust padding for a compact layout */
-    }
-
-    /* Footer Adjustments */
-    footer {
-        flex-direction: column; /* Stack footer content */
-        padding: 10px;
-        gap: 10px; /* Reduce gap for compact layout */
-    }
-
-    footer .nav-button {
-        font-size: 14px; /* Decrease font size */
-        padding: 8px 15px; /* Adjust padding for smaller buttons */
-    }
-}
-
-/* Optional: For very small screens (less than 480px) */
-@media screen and (max-width: 480px) {
-    header h1 {
-        font-size: 20px; /* Further reduce font size */
-    }
-
-    .resource-item {
-        padding: 10px; /* Reduce padding even further */
-    }
-
-    nav ul li a {
-        font-size: 16px; /* Adjust font size for nav links */
-    }
-
-    footer .nav-button {
-        font-size: 12px; /* Make buttons smaller */
-        padding: 6px 12px; /* Compact button padding */
+        width: 90%;
     }
 }
