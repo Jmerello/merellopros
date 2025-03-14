@@ -174,7 +174,7 @@ footer {
     }
 
     section {
-        width: 95%;
+        width: 90%;
     }
 
     .resource-list {
@@ -217,12 +217,12 @@ footer {
 
     /* Section Content Adjustments */
     section {
-        width: 100%; /* Use full width of the screen */
+        width: 90%; /* Use full width of the screen */
         padding: 10px; /* Add some spacing to prevent content from touching edges */
     }
 
     .resource-item {
-        width: 100%; /* Make resource items take full width */
+        width: 90%; /* Make resource items take full width */
         margin: 10px 0; /* Add vertical spacing between items */
     }
 }
