@@ -222,7 +222,7 @@ footer {
     }
 
     main-gallery {
-        flex-direction: row; /* Stack the navigation items vertically */
+        flex-direction: column; /* Stack the navigation items vertically */
     }
 
     /* Section Content Adjustments */
@@ -231,6 +231,11 @@ footer {
         padding: 10px; /* Add some spacing to prevent content from touching edges */
     }
 
+    .resource-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .resource-item {
         width: 80%; /* Make resource items take full width */
         margin: 10px 0; /* Add vertical spacing between items */
