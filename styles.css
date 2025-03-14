@@ -167,10 +167,12 @@ footer {
 
     header {
         display: none;
+        z-index: -2;
     }
     
     header img {
        display: none;
+        z-index: -2;
     }
     
     nav ul {
