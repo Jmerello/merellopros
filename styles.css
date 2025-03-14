@@ -167,14 +167,14 @@ footer {
 
     header {
         display: none;
-        z-index: -2;
+        z-index: -1;
     }
     
     header img {
        display: none;
-        z-index: -2;
+        z-index: -1;
     }
-    
+
     nav ul {
         flex-direction: row;
         align-items: center;
