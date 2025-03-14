@@ -215,6 +215,10 @@ footer {
         gap: 10px; /* Reduce spacing between links for smaller screens */
     }
 
+    main-gallery {
+        flex-direction: row; /* Stack the navigation items vertically */
+    }
+
     /* Section Content Adjustments */
     section {
         width: 90%; /* Use full width of the screen */
