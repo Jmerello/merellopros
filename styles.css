@@ -163,7 +163,7 @@ footer {
     }
 
     /* Responsive Design */
-    @media screen and (min-width: 650px, max-width: 900px) and (orientation: landscape) {
+    @media screen and (orientation: landscape) {
 
     header {
         display: flex;
