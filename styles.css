@@ -178,8 +178,7 @@ footer {
     }
 
     .main-gallery img {
-        width: calc(100% - 10px);
-        max-width: 650px;
+        width: calc(90% - 10px);
         display: block;
         flex-direction: column;
     }
@@ -194,7 +193,7 @@ footer {
     }
 
     .resource-item {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -203,8 +202,8 @@ footer {
 
     /* Header Image Adjustments */
     header img {
-        width: 100%; /* Ensure the image scales with the screen width */
-        max-width: 100%; /* Remove fixed maximum size for small screens */
+        width: 90%; /* Ensure the image scales with the screen width */
+        max-width: 90%; /* Remove fixed maximum size for small screens */
         min-width: unset; /* Remove minimum width to prevent overflow */
         height: auto; /* Maintain the aspect ratio */
     }
@@ -227,8 +226,7 @@ footer {
     }
 
     .main-gallery {
-        width: calc(100% - 10px);
-        max-width: 650px;
+        width: calc(90% - 10px);
         display: block;
         align-items: center;
         flex-direction: column; /* Stack the navigation items vertically */
@@ -236,7 +234,7 @@ footer {
 
     /* Section Content Adjustments */
     section {
-        width: 100%; /* Use full width of the screen */
+        width: 90%; /* Use full width of the screen */
         padding: 10px; /* Add some spacing to prevent content from touching edges */
     }
 
@@ -246,12 +244,7 @@ footer {
     }
     
     .resource-item {
-        width: 100%; /* Make resource items take full width */
+        width: 90%; /* Make resource items take full width */
         margin: 10px 0; /* Add vertical spacing between items */
     }
 }
-
- 10px 0; /* Add vertical spacing between items */
-    }
-}
-
