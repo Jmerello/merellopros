@@ -160,10 +160,10 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-}
+    }
 
-/* Responsive Design */
-@media screen and (min-width: 600px, max-width: 720px) {
+    /* Responsive Design */
+    @media screen and (min-width: 650px, max-width: 900px) and (orientation: landscape) {
 
     header {
         display: flex;
@@ -184,7 +184,7 @@ footer {
     max-width: 650px;
     display: block;
     flex-direction: column;
-}
+    }
 
     section {
         width: 90%;
@@ -201,7 +201,7 @@ footer {
 }
 
 /* Responsive Design for Narrow Screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (orientation: portrait) {
 
     /* Header Image Adjustments */
     header img {
