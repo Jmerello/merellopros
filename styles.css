@@ -201,7 +201,7 @@ footer {
 }
 
 /* Responsive Design for Narrow Screens */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
 
     /* Header Image Adjustments */
     header img {
