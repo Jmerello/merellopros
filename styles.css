@@ -164,11 +164,6 @@ footer {
 
 /* Responsive Design */
 @media screen and (max-width: 1500px) {
-
-    header {
-        display: none;
-        z-index: -1;
-    }
     
     header img {
        display: none;
