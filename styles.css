@@ -248,7 +248,7 @@ footer {
         margin:* Responsive Design */
     }
     
-@media screen and (min-width: 600px) and (max-width: 720px) and (orientation: landscape) {
+@media screen and (min-width: 650px) and (max-width: 720px) and (orientation: landscape) {
     
     header {
         display: flex;
@@ -265,11 +265,11 @@ footer {
     }
 
     .main-gallery img {
-    width: calc(100% - 10px);
-    max-width: 650px;
-    display: block;
-    flex-direction: column;
-}
+        width: calc(100% - 10px);
+        max-width: 650px;
+        display: block;
+        flex-direction: column;
+    }
 
     section {
         width: 90%;
@@ -314,6 +314,9 @@ footer {
     }
 
     .main-gallery {
+        width: calc(100% - 10px);
+        max-width: 650px;
+        display: block;
         flex-direction: column; /* Stack the navigation items vertically */
     }
 
