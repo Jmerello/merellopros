@@ -161,94 +161,8 @@ footer {
     left: 0;
     right: 0;
     }
-
-    /* Responsive Design */
-    @media screen and (orientation: landscape) {
-
-    header {
-        display: flex;
-    }
     
-    header img {
-       display: none;
-        z-index: -1;
-    }
-
-    nav ul {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .main-gallery img {
-    width: calc(100% - 10px);
-    max-width: 650px;
-    display: block;
-    flex-direction: column;
-    }
-
-    section {
-        width: 90%;
-    }
-
-    .resource-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .resource-item {
-        width: 90%;
-    }
-}
-
-/* Responsive Design for Narrow Screens */
-@media screen and (max-width: 650px) and (orientation: portrait) {
-
-    /* Header Image Adjustments */
-    header img {
-        width: 80%; /* Ensure the image scales with the screen width */
-        max-width: 80%; /* Remove fixed maximum size for small screens */
-        min-width: unset; /* Remove minimum width to prevent overflow */
-        height: auto; /* Maintain the aspect ratio */
-    }
-
-    /* Header Adjustments for Small Screens */
-    header {
-        padding: 5px 10px; /* Reduce padding for smaller screens */
-        margin-bottom: 10px; /* Add space below the header */
-    }
-
-    header h1 {
-        font-size: 20px; /* Reduce font size */
-    }
-    
-    /* Navigation Menu Stacking */
-    nav ul {
-        flex-direction: row;
-        align-items: center;
-        gap: 10px; /* Reduce spacing between links for smaller screens */
-    }
-
-    main-gallery {
-        flex-direction: column; /* Stack the navigation items vertically */
-    }
-
-    /* Section Content Adjustments */
-    section {
-        width: 80%; /* Use full width of the screen */
-        padding: 10px; /* Add some spacing to prevent content from touching edges */
-    }
-
-    .resource-list {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .resource-item {
-        width: 80%; /* Make resource items take full width */
-        margin:* Responsive Design */
-    }
-    
-@media screen and (min-width: 650px) and (max-width: 720px) and (orientation: landscape) {
+@media screen and (max-width: 768px) and (orientation: landscape) {
     
     header {
         display: flex;
@@ -256,7 +170,6 @@ footer {
     
     header img {
        display: none;
-        z-index: -1;
     }
 
     nav ul {
