@@ -163,13 +163,13 @@ footer {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     header img {
-        max-width: 90%;
+       display: none;
     }
     
     nav ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -192,8 +192,8 @@ footer {
 
     /* Header Image Adjustments */
     header img {
-        width: 90%; /* Ensure the image scales with the screen width */
-        max-width: 90%; /* Remove fixed maximum size for small screens */
+        width: 80%; /* Ensure the image scales with the screen width */
+        max-width: 80%; /* Remove fixed maximum size for small screens */
         min-width: unset; /* Remove minimum width to prevent overflow */
         height: auto; /* Maintain the aspect ratio */
     }
@@ -210,7 +210,7 @@ footer {
     
     /* Navigation Menu Stacking */
     nav ul {
-        flex-direction: row; /* Stack the navigation items vertically */
+        flex-direction: row;
         align-items: center;
         gap: 10px; /* Reduce spacing between links for smaller screens */
     }
@@ -221,12 +221,12 @@ footer {
 
     /* Section Content Adjustments */
     section {
-        width: 90%; /* Use full width of the screen */
+        width: 80%; /* Use full width of the screen */
         padding: 10px; /* Add some spacing to prevent content from touching edges */
     }
 
     .resource-item {
-        width: 90%; /* Make resource items take full width */
+        width: 80%; /* Make resource items take full width */
         margin: 10px 0; /* Add vertical spacing between items */
     }
 }
