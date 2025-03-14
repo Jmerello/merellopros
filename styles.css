@@ -162,7 +162,7 @@ footer {
     right: 0;
     }
     
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (orientation: landscape) {
     
     header {
         display: flex;
