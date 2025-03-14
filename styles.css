@@ -163,7 +163,7 @@ footer {
 }
 
 /* Responsive Design */
-@media screen and (min-width: 580px, max-width: 700px) {
+@media screen and (min-width: 600px, max-width: 720px) {
 
     header {
         display: flex;
@@ -201,7 +201,7 @@ footer {
 }
 
 /* Responsive Design for Narrow Screens */
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 650px) {
 
     /* Header Image Adjustments */
     header img {
