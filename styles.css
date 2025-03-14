@@ -194,7 +194,7 @@ footer {
     }
 
     .resource-item {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -203,8 +203,8 @@ footer {
 
     /* Header Image Adjustments */
     header img {
-        width: 80%; /* Ensure the image scales with the screen width */
-        max-width: 80%; /* Remove fixed maximum size for small screens */
+        width: 100%; /* Ensure the image scales with the screen width */
+        max-width: 100%; /* Remove fixed maximum size for small screens */
         min-width: unset; /* Remove minimum width to prevent overflow */
         height: auto; /* Maintain the aspect ratio */
     }
@@ -230,6 +230,7 @@ footer {
         width: calc(100% - 10px);
         max-width: 650px;
         display: block;
+        align-items: center;
         flex-direction: column; /* Stack the navigation items vertically */
     }
 
@@ -245,7 +246,7 @@ footer {
     }
     
     .resource-item {
-        width: 80%; /* Make resource items take full width */
+        width: 100%; /* Make resource items take full width */
         margin: 10px 0; /* Add vertical spacing between items */
     }
 }
