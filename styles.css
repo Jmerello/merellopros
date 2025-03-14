@@ -182,7 +182,7 @@ footer {
     .main-gallery img {
         width: calc(90% - 10px);
         display: block;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     section {
@@ -190,7 +190,7 @@ footer {
     }
 
     .resource-list {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
