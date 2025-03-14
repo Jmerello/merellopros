@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
-    padding-top: 150px; /* Adjust padding to accommodate header height */
+    padding-top: 211px; /* Adjust padding to accommodate header height */
 }
 
 body::before {
@@ -86,7 +86,7 @@ nav ul li a:hover {
 
 /* Main Content Styling */
 main {
-    margin-top: 150px; /* Adjust to match the height of the header */
+    margin-top: 211px; /* Adjust to match the height of the header */
 }
 
 /* Paragraph and Link Styling */
@@ -163,7 +163,7 @@ footer {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
 
     header {
         display: flex;
@@ -181,7 +181,7 @@ footer {
 
     .main-gallery img {
     width: calc(100% - 10px);
-    max-width: 700px;
+    max-width: 650px;
     display: block;
     flex-direction: column;
 }
