@@ -163,8 +163,8 @@ footer {
     }
     
 /* Hide header image only on small physical screens in landscape mode */
-@media screen and (max-width: 1200px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5), 
-       screen and (max-width: 1200px) and (orientation: landscape) and (min-resolution: 144dpi) {
+@media screen and (max-width: 3120px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5), 
+       screen and (max-width: 3120px) and (orientation: landscape) and (min-resolution: 144dpi) {
         
     header {
         display: flex;
