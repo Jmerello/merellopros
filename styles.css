@@ -180,7 +180,7 @@ footer {
     }
 
     .main-gallery img {
-        width: calc(90% - 10px);
+        width: calc(50% - 10px);
         display: block;
         flex-direction: row;
     }
@@ -195,7 +195,7 @@ footer {
     }
 
     .resource-item {
-        width: 90%;
+        width: 50% - 10px;
     }
 }
 
