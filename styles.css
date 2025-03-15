@@ -160,104 +160,104 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    }
+}
     
 /* Hide header image only on small physical screens in landscape mode */
 @media screen and (max-width: 3130px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5), 
        screen and (max-width: 3130px) and (orientation: landscape) and (min-resolution: 144dpi) {
         
-    header {
-        display: flex;
-    }
-    
-    header img {
-       display: none;
-    }
-
-    nav ul {
-        flex-direction: row;
-        align-items: center;
-    }
-
-   .main-gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 50px;
-        gap: 15px;
-        margin: 20px 0;
-    }
-           
-    .main-gallery img {
-        width: calc(50% - 10px);
-        display: block;
-        flex-direction: row;
-    }
-
-    section {
-        width: 90%;
-    }
-
-    .resource-list {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .resource-item {
-        width: 50% - 10px;
-    }
+header {
+    display: flex;
 }
+
+header img {
+   display: none;
+}
+
+nav ul {
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 15px;
+    margin: 20px 0;
+}
+       
+.main-gallery img {
+    width: calc(50% - 10px);
+    display: block;
+    flex-direction: row;
+}
+
+section {
+    width: 90%;
+}
+
+.resource-list {
+    flex-direction: row;
+    align-items: center;
+}
+
+.resource-item {
+    width: 50% - 10px;
+}
+
 
 /* Responsive Design for Narrow Screens */
 @media screen and (max-width: 1450px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5), 
        screen and (max-width: 1450px) and (orientation: portrait) and (min-resolution: 144dpi) {
 
-    /* Header Image Adjustments */
-    header img {
-        width: 100%; /* Ensure the image scales with the screen width */
-        max-width: 100%; /* Remove fixed maximum size for small screens */
-        min-width: unset; /* Remove minimum width to prevent overflow */
-        height: auto; /* Maintain the aspect ratio */
-    }
-
-    /* Header Adjustments for Small Screens */
-    header {
-        padding: 5px 10px; /* Reduce padding for smaller screens */
-        margin-bottom: 10px; /* Add space below the header */
-    }
-
-    header h1 {
-        font-size: 20px; /* Reduce font size */
-    }
-    
-    /* Navigation Menu Stacking */
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px; /* Reduce spacing between links for smaller screens */
-    }
-
-    .main-gallery {
-        width: calc(100% - 10px);
-        display: block;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column; /* Stack the navigation items vertically */
-    }
-
-    /* Section Content Adjustments */
-    section {
-        width: 85%; /* Use full width of the screen */
-        padding: 10px; /* Add some spacing to prevent content from touching edges */
-    }
-
-    .resource-list {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .resource-item {
-        width: 85%; /* Make resource items take full width */
-        margin: 10px 0; /* Add vertical spacing between items */
-    }
+/* Header Image Adjustments */
+header img {
+    width: 100%; /* Ensure the image scales with the screen width */
+    max-width: 100%; /* Remove fixed maximum size for small screens */
+    min-width: unset; /* Remove minimum width to prevent overflow */
+    height: auto; /* Maintain the aspect ratio */
 }
+
+/* Header Adjustments for Small Screens */
+header {
+    padding: 5px 10px; /* Reduce padding for smaller screens */
+    margin-bottom: 10px; /* Add space below the header */
+}
+
+header h1 {
+    font-size: 20px; /* Reduce font size */
+}
+
+/* Navigation Menu Stacking */
+nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Reduce spacing between links for smaller screens */
+}
+
+.main-gallery {
+    width: calc(100% - 10px);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack the navigation items vertically */
+}
+
+/* Section Content Adjustments */
+section {
+    width: 85%; /* Use full width of the screen */
+    padding: 10px; /* Add some spacing to prevent content from touching edges */
+}
+
+.resource-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.resource-item {
+    width: 85%; /* Make resource items take full width */
+    margin: 10px 0; /* Add vertical spacing between items */
+}
+
