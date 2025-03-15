@@ -213,6 +213,12 @@ section {
 @media screen and (max-width: 1450px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5), 
        screen and (max-width: 1450px) and (orientation: portrait) and (min-resolution: 144dpi) {
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+}
 /* Header Image Adjustments */
 header img {
     width: 100%; /* Ensure the image scales with the screen width */
@@ -242,16 +248,13 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
-    max-width: 600px;
-    gap: 15px;
-    margin: 20px 0;
 }
        
 .main-gallery img {
-    width: calc(50% - 10px);
+    width: calc(90%);
+    max-width: 600px;
+    margin: 0 auto;
     display: block;
-    flex-direction: row;
 }
 
 /* Section Content Adjustments */
