@@ -183,7 +183,6 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
     max-width: 600px;
     gap: 15px;
     margin: 20px 0;
