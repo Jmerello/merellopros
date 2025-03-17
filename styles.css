@@ -182,7 +182,7 @@ nav ul {
 .main-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
     max-width: 600px;
     gap: 15px;
     margin: 20px 0;
