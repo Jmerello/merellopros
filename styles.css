@@ -201,7 +201,7 @@ nav ul {
     justify-content: center;
     max-width: 600px;
     gap: 15px;
-    margin: 20px 0;
+    margin: 20px auto;
 }
        
 .main-gallery img {
@@ -221,6 +221,7 @@ section {
 
 .resource-item {
     width: 50% - 10px;
+    flex-direction: row;
 }
 
 
@@ -278,7 +279,7 @@ nav ul {
 
 /* Section Content Adjustments */
 section {
-    width: 85%; /* Use full width of the screen */
+    width: 100%; /* Use full width of the screen */
     padding: 10px; /* Add some spacing to prevent content from touching edges */
 }
 
@@ -288,7 +289,7 @@ section {
 }
 
 .resource-item {
-    width: 85%; /* Make resource items take full width */
+    width: 100%; /* Make resource items take full width */
     margin: 10px 0; /* Add vertical spacing between items */
 }
 
