@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
-    padding-top: 211px; /* Adjust padding to accommodate header height */
+    padding-top: 150px; /* Adjust padding to accommodate header height */
 }
 
 body::before {
@@ -47,8 +47,8 @@ header {
 
 header img {
     width: 100%;
-    max-width: 1000px;
-    min-width: 100px;
+    max-width: 1500px;
+    min-width: 150px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -86,7 +86,7 @@ nav ul li a:hover {
 
 /* Main Content Styling */
 main {
-    margin-top: 211px; /* Adjust to match the height of the header */
+    margin-top: 150px; /* Adjust to match the height of the header */
 }
 
 /* Paragraph and Link Styling */
@@ -182,7 +182,7 @@ nav ul {
 .main-gallery {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
     max-width: 600px;
     gap: 15px;
     margin: 20px 0;
@@ -247,7 +247,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 15px;
     width: 90%;
 }
