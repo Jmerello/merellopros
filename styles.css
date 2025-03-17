@@ -100,21 +100,24 @@ a:hover {
     color: #ffd700; /* Yellow on hover */
 }
 
-/* Gallery Section */
+/* Main Gallery Section */
 .main-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 100px;
+    justify-content: center; /* Ensure images are centered */
+    align-items: center; /* Align images vertically (if needed) */
     gap: 15px;
-    margin: 20px 0;
+    margin: 20px auto; /* Center gallery container */
+    width: 100%; /* Allow it to take full width */
 }
 
 .main-gallery img {
-    width: calc(50% - 10px);
-    max-width: 600px;
-    display: block;
+    max-width: 45%; /* Adjust size to fit nicely */
+    flex-shrink: 0; /* Prevent shrinking of images */
+    margin: 0 auto; /* Center images individually */
+    display: block; /* Ensure images are treated as block elements */
 }
+
 
 /* Featured Section */
 #featured {
@@ -202,10 +205,10 @@ nav ul {
 }
        
 .main-gallery img {
-    width: calc(50% - 10px);
-    display: block;
-    flex-direction: row;
-}
+        width: 100%; /* Each image spans full width */
+        max-width: 600px; /* Limit maximum size */
+        margin: 0 auto; /* Center each image */
+    }
 
 section {
     width: 100%;
