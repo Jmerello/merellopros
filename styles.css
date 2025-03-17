@@ -46,8 +46,8 @@ header {
 }
 
 header img {
-    width: 100%;
-    max-width: 1500px;
+    width: 90%;
+    max-width: 1000px;
     min-width: 150px;
     height: auto;
     margin-bottom: 10px;
@@ -196,7 +196,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 600px;
     gap: 15px;
     margin: 20px 0;
 }
